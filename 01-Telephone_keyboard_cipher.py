@@ -1,6 +1,7 @@
 # Enter text
 original_text = input('Please enter original text: ')
 alltext = original_text.replace(' ','')
+alltext = alltext.lower()
 
 cnt = [3,3,3,3,3,4,3,4]
 result_list = []
